@@ -31,7 +31,7 @@ const Trending24 = () => {
         </button>
       </div>
 
-      <div className="bg-white p-5 w-full lg:rounded-xl">
+      <div className="bg-white p-5 w-full lg:rounded-xl mb-3">
         <h2 className="text-2xl font-semibold py-2">Trending Coins (24h)</h2>
 
         <div className="flex flex-col gap-5 mt-6">
