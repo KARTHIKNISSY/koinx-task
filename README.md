@@ -1,35 +1,58 @@
-# KoinX Frontend Task
+# KoinX Frontend Task  
 
-## Tech
-- React.js
-- Tailwind CSS
-- React Router DOM v6
+This project is a cryptocurrency dashboard built with React.js, showcasing real-time data for various cryptocurrencies using the CoinGecko API.
 
-## Demo URL
-URL Format : `https://task-koinx.vercel.app/[coinname]`
+## Demo  
+Visit the live demo: [KoinX Final Task](https://koinx-final-task.vercel.app/bitcoin)  
 
-URL: https://task-koinx.vercel.app/bitcoin (ctrl + click)
+### URL Format:  
+`https://koinx-final-task.vercel.app/[coinname]`  
 
-## Overview and Features
-- Implemented all components as shown in the Figma design.
-- Implemented API calls for the following data:
-  1. Price `/simple/price`
-  2. Trending `/search/trending`
-  3. Coins `/coins/{id}`
-- Created a responsive design to ensure compatibility across various devices.
-- Implemented Optional Tasks:
-  - Users can dynamically change the coin name in the URL to view data and charts for different coins.
-  - Example URL: `https://task-koinx.vercel.app/[coinname]`
-  - Replace `[coinname]` with the name of the coin you want to view like:
-    1. `bitcoin` for Bitcoin
-    2. `ethereum` for Ethereum
-    3. `ripple` for Ripple
-- Implemented Error handling, for example if user enter `[coinname]` as something that is not crypto coin then a message will be displayed.
-- Implemented functional breadcrumb navigation.
-- Deployed in vercel.
-- Note : I used FREE API Service from CoinGecko which has a `Rate Limit of 30 calls PER minute`.
+Replace `[coinname]` with a cryptocurrency name to view its data and charts.  
+Examples:  
+- `bitcoin` for Bitcoin  
+- `ethereum` for Ethereum  
+- `ripple` for Ripple  
 
+---
+
+## Features  
+
+### Core Functionality  
+- Fully responsive design compatible with various devices and screen sizes.  
+- Implemented API integrations for fetching:  
+  1. **Price Data:** `/simple/price`  
+  2. **Trending Coins:** `/search/trending`  
+  3. **Coin Details:** `/coins/{id}`  
+
+### Optional Enhancements  
+- **Dynamic URL Handling:**  
+  Users can change the coin name directly in the URL to dynamically view data for different cryptocurrencies.  
+
+- **Error Handling:**  
+  Displays a user-friendly error message for invalid coin names.  
+
+- **Breadcrumb Navigation:**  
+  Functional breadcrumb navigation for enhanced usability.  
+
+---
+
+## Technology Stack  
+- **React.js**  
+- **Tailwind CSS**  
+- **React Router DOM v6**  
+
+---
+
+## Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-repo/koinx-task.git
+   cd koinx-task
 
 ## Preview
+![koinx](https://github.com/user-attachments/assets/631ad8a3-3163-4e52-8b54-b6aac59c8ebb)
 
-![image](https://github.com/kamal9494/koinx-task/assets/97849725/76dc0f90-b4f5-47c0-8940-ff0232a2efbb)
+
+
